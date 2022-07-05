@@ -9,7 +9,7 @@ from hello.models import LogMessage
 from django.views.generic import ListView
 
 class HomeListView(ListView):
-    """Renders the home page, with a list of all messages..."""
+    """Renders the home page, with a list of all messages..;;;"""
     model = LogMessage
 
     def get_context_data(self, **kwargs):
